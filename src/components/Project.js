@@ -22,7 +22,7 @@ export default function Project() {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto  content-div m-5"
           >
             {/**Hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 text-center group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Portfolio
               </span>
