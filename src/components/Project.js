@@ -1,5 +1,4 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
 import RanQuote from "../assets/RandomQuote.png";
 import WeatherApp from "../assets/WeatherApp.png";
 import Portfolio from '../assets/Portfolio.png'
