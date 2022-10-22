@@ -71,7 +71,7 @@ export default function Project() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/giankyle989/pokedex"
+                  href="https://github.com/giankyle989/pokedex-app"
                   rel="noreferrer noopener"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold textlg">
