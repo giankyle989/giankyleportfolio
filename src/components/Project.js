@@ -3,9 +3,13 @@ import Crud from "../assets/Crud.png";
 import RanQuote from "../assets/RandomQuote.png";
 import WeatherApp from "../assets/WeatherApp.png";
 import Portfolio from "../assets/Portfolio.png";
+import Pokedex from "../assets/Pokedex.png";
 export default function Project() {
   return (
-    <div name="projects" className="w-full md:h-screen bg-sky-900 text-gray-300">
+    <div
+      name="projects"
+      className="w-full md:h-screen bg-sky-900 text-gray-300"
+    >
       {/**Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -36,6 +40,38 @@ export default function Project() {
                 <a
                   href="https://github.com/giankyle989/giankyleportfolio"
                   target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold textlg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/**GRID ITEM */}
+          <div
+            style={{ backgroundImage: `url(${Pokedex})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto  content-div m-2"
+          >
+            {/**Hover effect */}
+            <div className="opacity-0 text-center group-hover:opacity-100">
+              <span className="text-2xl text-center font-bold text-white tracking-wider">
+                Pokedex
+              </span>
+              <h1 className="py-2">Technology: ReactJS, Tailwind, Axios</h1>
+              <div className="py-8 text-center">
+                <a
+                  href="https://pokedex-app-7mlj.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold textlg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/giankyle989/pokedex"
                   rel="noreferrer noopener"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold textlg">
