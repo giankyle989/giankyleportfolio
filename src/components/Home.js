@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Resume from "../assets/Laguerta-Resume.pdf";
 
 export default function Home() {
   return (
@@ -23,9 +24,11 @@ export default function Home() {
               </span>
             </button>
           </Link>
-          <button className="text-white group border-2 px-6 py-3 mx-4 my-2 flex items-center hover:bg-[#38b6ff] hover:border-[#38b6ff]">
-            Download Resume/CV
-          </button>
+          <a href={Resume} download>
+            <button className="text-white group border-2 px-6 py-3 mx-4 my-2 flex items-center hover:bg-[#38b6ff] hover:border-[#38b6ff]">
+              Download Resume/CV
+            </button>
+          </a>
         </div>
       </div>
     </div>
