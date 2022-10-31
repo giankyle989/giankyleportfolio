@@ -26,7 +26,7 @@ export default function Home() {
           </Link>
           <a href={Resume} download>
             <button className="text-white group border-2 px-6 py-3 mx-4 my-2 flex items-center hover:bg-[#38b6ff] hover:border-[#38b6ff]">
-              Download Resume/CV
+              Download Resume
             </button>
           </a>
         </div>
